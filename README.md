@@ -1,2 +1,2 @@
 # saymahub.github.io
-Personal Portfolio 2
+Personal Portfolio
