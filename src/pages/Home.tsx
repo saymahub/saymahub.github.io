@@ -11,7 +11,7 @@ export const Home  = () => {
 
             {/* NavBar */}
 
-            {/* Main Content */}
+            {/* Main Site Content */}
 
             {/* Footer */}
            
