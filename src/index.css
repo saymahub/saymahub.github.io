@@ -18,7 +18,7 @@
   --font-justcosmic: "JustCosmic", serif;
 
   --animate-float: float-up-down 2s ease-in-out infinite both;
-  --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
+  --animate-pulse-subtle: pulse-subtle 10s ease-in-out infinite;
 
   /* floating planets */
   @keyframes float-up-down {
