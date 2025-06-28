@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'JustCosmic';
+    src: url('./Just-Cosmic.eot');
+    src: url('./Just-Cosmic.eot?#iefix') format('embedded-opentype'),
+         url('./Just-Cosmic.woff2') format('woff2'),
+         url('./Just-Cosmic.woff') format('woff'),
+         url('./Just-Cosmic.ttf')  format('truetype'),
+         url('./Just-Cosmic.svg#JustCosmic') format('svg');
+}
