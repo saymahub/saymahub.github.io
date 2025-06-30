@@ -32,8 +32,8 @@ export const ThemeToggle = () => {
 
     return(
         <>
-        <button onClick={toggleTheme} className={cn("cursor-pointer fixed max-sm:hidden top-10 right-10 z-50 p-2 rounded-full transition-colours duration-300",
-            "focus:outline-hidden"
+        <button onClick={toggleTheme} className={cn("cursor-pointer fixed top-8 z-50 p-2 rounded-full transition-colours duration-300",
+            "focus:outline-hidden right-15 max-sm:right-auto max-sm:left-5 max-sm:top-9"
         )}>
             {isDarkMode ? (<Sun className="h-10 w-10 text-primary"/>) 
             : (<Moon className="h-10 w-10 text-primary"/>)}
