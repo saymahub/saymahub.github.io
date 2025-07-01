@@ -23,10 +23,10 @@ export const Footer = ({ isMenuOpen, setIsMenuOpen }: FooterProps) => {
     }, []);
 
     return (
-        <nav className={cn("fixed bottom-4 left-1/2 transform -translate-x-1/2 z-40 transition-all duration-300", 
-            isScrolled ? "py-3 bg-background/80 backdrop-blur-mid shadow-xs" : "py-5"
+        <nav className={cn("hidden md:flex fixed w-full bg-[color:var(--background)] bottom-0 left-1/2 transform -translate-x-1/2 z-40 transition-all duration-300", 
+            isScrolled ? "py-3 bg-[color:var(--background)] backdrop-blur-mid" : "py-5"
         )}>
-            <div className="container flex items-center justify-between">
+            <div className="container mx-auto flex items-center py-4 justify-center">
 
                 {/* desktop nav */}
                 <div className="hidden md:flex space-x-8">

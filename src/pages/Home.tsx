@@ -4,6 +4,11 @@ import { StarBackground } from "../components/StarBackground";
 import { NavBar } from "../components/NavBar";
 import { HeroSection } from "../components/HeroSection";
 import { Footer } from "../components/Footer";
+import { AboutMe } from "../components/AboutMe";
+import { Education } from "../components/Education";
+import { Experience } from "../components/Experience";
+import { Projects } from "../components/Projects";
+import { Extra } from "../components/Extra";
 
 export const Home  = () => {
     const[isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,6 +27,11 @@ export const Home  = () => {
             {/* Main Site Content */}
             <main>
                 <HeroSection />
+                <AboutMe />
+                <Education />
+                <Experience />
+                <Projects />
+                <Extra />
             </main>
 
             {/* Footer */}

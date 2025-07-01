@@ -28,10 +28,10 @@ export const NavBar = ({ isMenuOpen, setIsMenuOpen }: NavBarProps) => {
     }, []);
 
     return (
-        <nav className={cn("fixed top-4 w-full z-40 transition-all duration-300", 
-            isScrolled ? "py-3 bg-background/80 backdrop-blur-mid shadow-xs" : "py-5"
+        <nav className={cn("fixed top-0 w-full z-40 transition-all duration-300 bg-[color:var(--background)]", 
+            isScrolled ? "py-3 bg-[color:var(--background)] backdrop-blur-mid" : "py-5"
         )}>
-            <div className="container relative flex items-center justify-center">
+            <div className="container relative flex items-center py-4 justify-center">
                 <div className="text-4xl font-bold text-primary flex item-center left-0 pl-0 md:absolute">
                     <span className="relative z-10">
                         <span className="text-glow"> SH </span>

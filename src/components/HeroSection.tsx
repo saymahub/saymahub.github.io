@@ -2,7 +2,7 @@ import saturngif from '../assets/ringed.gif';
 
 export const HeroSection = () => {
     return (
-        <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center bottom-45 px-4">
+        <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center bottom-45 px-4 z-10">
             <div className="relative container max-w-4xl mx-auto text-center z-10 ">
                 <h1 className="text-7xl -translate-y-[0px] md:-translate-y-[40px] md:text-9xl opacity-0 animate-fade-in relative z-10">
                     Sayma Haque
