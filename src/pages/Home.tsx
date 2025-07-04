@@ -9,12 +9,13 @@ import { Education } from "../components/Education";
 import { Experience } from "../components/Experience";
 import { Projects } from "../components/Projects";
 import { Extra } from "../components/Extra";
+import { MobilePopUp } from "../components/MobilePopUp";
 
 export const Home  = () => {
     const[isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className = "min-h-screen bg-background text-foreground overflow-x-hidden">
+        <div className = " min-h-screen bg-background text-foreground overflow-x-hidden">
             {/* Theme Toggle */}
             <ThemeToggle />
 
@@ -25,7 +26,8 @@ export const Home  = () => {
             <NavBar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
             
             {/* Main Site Content */}
-            <main>
+            <main className = "md:snap-y md:snap-mandatory md:overflow-y-scroll scroll-smooth md:h-screen">
+                <MobilePopUp />
                 <HeroSection />
                 <AboutMe />
                 <Education />

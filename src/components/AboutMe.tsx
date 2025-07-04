@@ -2,7 +2,7 @@ import star from '../assets/neutron.gif';
 
 export const AboutMe = () => {
     return (
-        <section id="aboutme" className="py-24 px-4 relative container mx-auto max-w-9xl space-y-6 text-left -translate-y-[100px] md:-translate-y-[0px]">
+        <section id="aboutme" className="md:snap-start md:h-screen py-24 px-4 relative container mx-auto max-w-9xl space-y-6 text-left -translate-y-[100px] md:translate-y-[30px]">
             <div className="grid grid-cols-1 md:grid-cols-2 gpa-12 items-center">
 
                 <div className="container hidden md:flex">
@@ -11,11 +11,11 @@ export const AboutMe = () => {
 
                 <div className="container mx-auto max-w-5xl space-y-6 text-left">
                     <h2 className="text-3xl md:text-6xl mb-12 text-left">
-                        About Me
+                        About Me <span className="text-[30px]">⋆｡°✩ </span>
                     </h2>
                     <p className="font-prata text-[12px] md:text-[18px]">
                         Hey there! I'm Sayma, a software engineer who's finding their place in the industry. 
-                        My work days consist of building web apps, debugging someone else's chaos, or giving side projects a 
+                        My work days consist of building websites, debugging someone else's chaos, or giving side projects a 
                         little too much attention. I'm happiest when I'm creating something useful (or at least cool).
                     </p>
                     <p className="font-prata text-[12px] md:text-[18px]">

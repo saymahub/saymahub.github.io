@@ -18,6 +18,7 @@
   --font-justcosmic: "JustCosmic", serif;
 
   --animate-float: float-up-down 2s ease-in-out infinite both;
+  --animate-float-longer: float-up-down 3s ease-in-out infinite both;
   --animate-pulse-subtle: pulse-subtle 10s ease-in-out infinite;
   --animate-fade-in: fade-in 0.7s ease-out forwards;
 
@@ -134,8 +135,8 @@
 @utility port-button {
   background-color: var(--primary);
   color: var(--secondary);
-  @apply px-6 py-2 rounded-full font-medium transition-all 
-         duration-300 hover:shadow-[0_00_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
+  @apply px-8 py-2 rounded-full font-prata transition-all 
+         duration-100 hover:shadow-[0_00_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
 }
 
 @utility starbackground {

@@ -37,7 +37,7 @@ export const StarBackground = () => {
     };
 
     return (
-        <div className = "fixed inset-0 overflow-hidden pointer-events-none z-0">
+        <div className = "fixed inset-0 pointer-events-none z-0">
             {stars.map((star) =>(
                 <div key={star.id} className="starbackground animate-pulse-subtle" style={{
                     width: star.size + "px",
