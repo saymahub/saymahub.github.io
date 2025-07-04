@@ -11,6 +11,7 @@
 
   --colour-primary: var(--primary);
   --colour-secondary: var(--secondary);
+  --colour-projectButton: var(--projectButton);
 
   --colour-card: var(--card);
 
@@ -68,6 +69,7 @@
     --secondary: #151515;
     --stars: #FAF5F2;
     --hovertext: #F5F2EB;
+    --projectButton: #e1f2ff;
   }
 
   .light{
@@ -76,6 +78,7 @@
     --secondary: #FAF5F2;
     --stars: #FAF5F2;
     --hovertext: #9c887c;
+    --projectButton: #404973
   }
 
   * padding{
@@ -135,8 +138,17 @@
 @utility port-button {
   background-color: var(--primary);
   color: var(--secondary);
-  @apply px-8 py-2 rounded-full font-prata transition-all 
+  @apply inline-block px-8 py-2 rounded-full font-prata transform transition-all 
          duration-100 hover:shadow-[0_00_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
+}
+
+@utility project-button {
+  background-color: var(--primary);
+  color: var(--secondary);
+  width: 220px;
+  height: 300px;
+  @apply inline-block px-8 py-2 rounded-b-sm font-prata transform transition-all 
+         duration-300 hover:shadow-[0_00_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
 }
 
 @utility starbackground {

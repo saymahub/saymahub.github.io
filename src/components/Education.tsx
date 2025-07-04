@@ -5,7 +5,7 @@ export const Education = () => {
         <section id="education" className="md:snap-start md:h-screen py-24 px-4 relative container mx-auto max-w-9xl space-y-6 text-left -translate-y-[100px] md:-translate-y-[30px]">
             <div className="grid grid-cols-1 md:grid-cols-2 gpa-12 items-center">
                 <div className="container mx-auto max-w-5xl space-y-6 text-left md:translate-x-[120px]">
-                    <h2 className="text-3xl md:text-6xl mb-12 text-left">
+                    <h2 className="text-3xl text-glow md:text-6xl mb-12 text-left">
                         Education <span className="text-[30px]">⋆｡°✩ </span>
                     </h2>
                     <p className="font-prata text-[12px] md:text-[18px]">

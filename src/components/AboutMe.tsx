@@ -10,7 +10,7 @@ export const AboutMe = () => {
                 </div>
 
                 <div className="container mx-auto max-w-5xl space-y-6 text-left">
-                    <h2 className="text-3xl md:text-6xl mb-12 text-left">
+                    <h2 className="text-3xl text-glow md:text-6xl mb-12 text-left">
                         About Me <span className="text-[30px]">⋆｡°✩ </span>
                     </h2>
                     <p className="font-prata text-[12px] md:text-[18px]">
