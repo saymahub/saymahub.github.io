@@ -14,6 +14,8 @@ const navItems = [
     {name: "Experience", href: "#experience"},
     {name: "Projects", href: "#projects"},
     {name: "Extra", href: "#extra"},
+    {name: "Contact", href: "#contact"},
+    {name: "Credits", href: "#credits"},
 ]
 
 export const NavBar = ({ isMenuOpen, setIsMenuOpen }: NavBarProps) => {
@@ -51,14 +53,14 @@ export const NavBar = ({ isMenuOpen, setIsMenuOpen }: NavBarProps) => {
                 <button onClick={() => setIsMenuOpen((prev) => !prev)} className="md:hidden p-2 text-primary z-50 absolute right-8" aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}> 
                     {isMenuOpen ? <X size={24}/> : <Menu size={24}/>}
                 </button>
-                <div className={cn("fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center transition-all duration-30 md:hidden",
+                <div className={cn("fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center transition-all duration-300 md:hidden",
                     isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none")}>
                     <div className="flex flex-col space-y-8 -translate-y-10">
                         {navItems.map((item, key) => (
                             <a 
                             key={key} 
                             href={item.href} 
-                            className="font-prata text-2xl text-primary/80 hover:text-[color:var(--hovertext)] transition-colors duration-30"
+                            className="font-prata text-2xl text-primary/80 hover:text-[color:var(--hovertext)] transition-colors duration-300"
                             onClick={() => setIsMenuOpen(false)}
                             > 
                                 {item.name} 

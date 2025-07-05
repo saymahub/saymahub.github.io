@@ -2,8 +2,8 @@ import star from '../assets/neutron.gif';
 
 export const AboutMe = () => {
     return (
-        <section id="aboutme" className="md:snap-start md:h-screen py-24 px-4 relative container mx-auto max-w-9xl space-y-6 text-left -translate-y-[100px] md:translate-y-[30px]">
-            <div className="grid grid-cols-1 md:grid-cols-2 gpa-12 items-center">
+        <section id="aboutme" className="md:snap-start md:h-screen py-33 px-4 relative container mx-auto max-w-9xl space-y-6 text-left -translate-y-[100px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center">
 
                 <div className="container hidden md:flex">
                     <img src={star} alt="star gif" className="animate-float pointer-events-none"></img>

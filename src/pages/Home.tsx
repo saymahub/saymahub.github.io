@@ -3,13 +3,14 @@ import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "../components/StarBackground";
 import { NavBar } from "../components/NavBar";
 import { HeroSection } from "../components/HeroSection";
-import { Footer } from "../components/Footer";
 import { AboutMe } from "../components/AboutMe";
 import { Education } from "../components/Education";
 import { Experience } from "../components/Experience";
 import { Projects } from "../components/Projects";
 import { Extra } from "../components/Extra";
 import { MobilePopUp } from "../components/MobilePopUp";
+import { Contact } from "../components/Contact";
+import { Credits } from "../components/Credits";
 
 export const Home  = () => {
     const[isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,10 +35,12 @@ export const Home  = () => {
                 <Experience />
                 <Projects />
                 <Extra />
+                <Contact />
+                <Credits />
             </main>
 
             {/* Footer */}
-            <Footer isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
+            {/* <Footer isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/> */}
         </div>
     );
 };
