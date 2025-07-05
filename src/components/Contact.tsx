@@ -7,7 +7,7 @@ export const Contact = () => {
     const handleCopy = () => {
         navigator.clipboard.writeText('saymadevelops@gmail.com');
         setCopied(true);
-        setTimeout(() => setCopied(false), 2000); // hide after 2 seconds
+        setTimeout(() => setCopied(false), 2000);
     };
 
     return (
@@ -28,7 +28,7 @@ export const Contact = () => {
                             saymadevelops@gmail.com
                     </button>
                     {copied && (
-                        <span className="absolute left-1/2 transform -translate-x-1/2 translate-y-[20px] md:translate-y-[30px] mt-1 text-[14px]] text-primary bg-[color:var(--primary)]/10 px-2 py-1 rounded">
+                        <span className="absolute left-1/2 transform -translate-x-1/2 translate-y-[20px] md:translate-y-[30px] mt-1 text-[14px] text-primary bg-[color:var(--primary)]/10 px-2 py-1 rounded">
                             Copied!
                         </span>
                     )}
