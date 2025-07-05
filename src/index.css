@@ -8,7 +8,8 @@
   --colour-background: var(--background);
   --colour-stars: var(--stars);
   --colour-hovertext: var(--hovertext);
-  --primary-rgb: var(--primaryrgb)
+  --primary-rgb: var(--primaryrgb);
+  --primary-mobile: var(--primarymobile);
 
   --colour-primary: var(--primary);
   --colour-secondary: var(--secondary);
@@ -68,6 +69,7 @@
     --background: #151515;
     --primary: #F6E6B2;
     --secondary: #151515;
+    --primarymobile: #FAF5F2;
     --stars: #FAF5F2;
     --hovertext: #F5F2EB;
     --projectButton: #e1f2ff;
@@ -79,6 +81,7 @@
     --background: #FAF5F2;
     --primary: #4F2914;
     --secondary: #FAF5F2;
+    --primarymobile: #8a6e5f;
     --stars: #FAF5F2;
     --hovertext: #9c887c;
     --projectButton: #404973;

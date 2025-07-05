@@ -14,7 +14,7 @@ export const MobilePopUp = () => {
 
     return(
         <section className="fixed inset-0 z-50 flex items-center justify-center md:hidden ">
-            <div className="relative bg-[color:var(--stars)] text-[color:var(--background)] p-4 rounded-lg shadow-lg w-11/12 text-center">
+            <div className="relative bg-[color:var(--primarymobile)] text-[color:var(--background)] p-4 rounded-lg shadow-lg w-11/12 text-center">
                 <p className="text-lg font-prata mb-2">
                 📱 Heads up!
                 <br />
