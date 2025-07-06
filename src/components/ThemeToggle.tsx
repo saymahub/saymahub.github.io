@@ -8,24 +8,24 @@ export const ThemeToggle = () => {
     
     useEffect(() => {
         const storedTheme = localStorage.getItem("theme");
-        if(storedTheme === "dark"){
+        if(storedTheme === "light"){
             setIsDarkMode(true);
-            document.documentElement.classList.remove("light");
+            document.documentElement.classList.remove("dark");
         }
         else {
             setIsDarkMode(false);
-            document.documentElement.classList.add("light");
+            document.documentElement.classList.add("dark");
         }
     }, [])
 
     const toggleTheme = () => {
         if(isDarkMode){
-            document.documentElement.classList.add("light");
-            localStorage.setItem("theme","light");
+            document.documentElement.classList.add("dark");
+            localStorage.setItem("theme","dark");
             setIsDarkMode(false);
         } else {
-            document.documentElement.classList.remove("light");
-            localStorage.setItem("theme","dark");
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem("theme","light");
             setIsDarkMode(true);
         }
     };
@@ -35,8 +35,8 @@ export const ThemeToggle = () => {
         <button onClick={toggleTheme} className={cn("cursor-pointer fixed top-8 z-50 p-2 rounded-full transition-colours duration-300",
             "focus:outline-hidden right-15 max-sm:right-auto max-sm:left-5 max-sm:top-9"
         )}>
-            {isDarkMode ? (<Sun className="h-10 w-10 text-primary"/>) 
-            : (<Moon className="h-10 w-10 text-primary"/>)}
+            {isDarkMode ? (<Moon className="h-10 w-10 text-primary"/>) 
+            : (<Sun className="h-10 w-10 text-primary"/>)}
         </button>
         {/* <p className="text-sm mt-2 text-secondary">Dark mode is {isDarkMode ? "ON" : "OFF"}</p> */}
         </>
