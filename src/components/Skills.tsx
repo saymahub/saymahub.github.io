@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import { cn } from "../lib/utils";
 
 const skills = [
@@ -25,7 +25,13 @@ const skills = [
 const categories = ["All", "Front End", "Back End", "Programming", "Tools"];
 
 export const Skills = () => {
-    const [activeCategory, setActiveCategory] = useState("All");
+    const [activeCategory, setActiveCategory] = useState("");
+
+    
+    useEffect(() => {
+        const initial = "All"; 
+        setActiveCategory(initial);
+    }, []);
 
     const filteredSkills = skills.filter(
         (skill) => activeCategory === "All" || skill.category === activeCategory
