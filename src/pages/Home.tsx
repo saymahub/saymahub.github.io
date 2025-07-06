@@ -11,6 +11,7 @@ import { Extra } from "../components/Extra";
 import { MobilePopUp } from "../components/MobilePopUp";
 import { Contact } from "../components/Contact";
 import { Credits } from "../components/Credits";
+import { Skills } from "../components/Skills";
 
 export const Home  = () => {
     const[isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,6 +35,7 @@ export const Home  = () => {
                 <Education />
                 <Experience />
                 <Projects />
+                <Skills />
                 <Extra />
                 <Contact />
                 <Credits />
