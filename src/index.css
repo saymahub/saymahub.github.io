@@ -75,6 +75,8 @@
     --projectButton: #404973;
     --card: #e0d1c8;
     --primaryrgb: 246, 230, 178;
+    --header-h: 10px;
+    --section-pad: clamp(16px, 5vw, 64px);
   }
 
   .dark{

@@ -2,7 +2,7 @@ import star from '../assets/neutron.gif';
 
 export const AboutMe = () => {
     return (
-        <section id="aboutme" className="md:snap-start md:h-screen py-33 px-4 relative container mx-auto max-w-9xl space-y-6 text-left -translate-y-[100px]">
+        <section id="aboutme" className="md:snap-start md:h-screen px-4 relative container mx-auto max-w-9xl space-y-6 text-left pt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
 
                 <div className="container hidden md:flex">

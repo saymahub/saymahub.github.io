@@ -30,6 +30,79 @@ export const Home  = () => {
             {/* Main Site Content */}
             <main className = "md:snap-y md:snap-mandatory md:overflow-y-scroll scroll-smooth md:h-screen">
                 <MobilePopUp />
+                <section className="
+                    min-h-dvh
+                    py-[var(--section-pad)]
+                    md:snap-start md:snap-always
+                    md:scroll-mt-[var(--header-h)]
+                ">
+                    <HeroSection />
+                </section>  
+                <section className="
+                    min-h-dvh
+                    py-[var(--section-pad)]
+                    md:snap-start md:snap-always
+                    md:scroll-mt-[var(--header-h)]
+                ">
+                    <AboutMe />
+                </section> 
+                <section className="
+                    min-h-dvh
+                    py-[var(--section-pad)]
+                    md:snap-start md:snap-always
+                    md:scroll-mt-[var(--header-h)]
+                ">
+                    <Education />
+                </section>  
+                <section className="
+                    min-h-dvh
+                    py-[var(--section-pad)]
+                    md:snap-start md:snap-always
+                    md:scroll-mt-[var(--header-h)]
+                ">
+                    <Experience />
+                </section> 
+                <section className="
+                    min-h-dvh
+                    py-[var(--section-pad)]
+                    md:snap-start md:snap-always
+                    md:scroll-mt-[var(--header-h)]
+                ">
+                    <Projects />
+                </section> 
+                <section className="
+                    min-h-dvh
+                    py-[var(--section-pad)]
+                    md:snap-start md:snap-always
+                    md:scroll-mt-[var(--header-h)]
+                ">
+                    <Skills />
+                </section> 
+                <section className="
+                    min-h-dvh
+                    py-[var(--section-pad)]
+                    md:snap-start md:snap-always
+                    md:scroll-mt-[var(--header-h)]
+                ">
+                    <Extra />
+                </section> 
+                <section className="
+                    min-h-dvh
+                    py-[var(--section-pad)]
+                    md:snap-start md:snap-always
+                    md:scroll-mt-[var(--header-h)]
+                ">
+                    <Contact />
+                </section> 
+                <section className="
+                    min-h-dvh
+                    py-[var(--section-pad)]
+                    md:snap-start md:snap-always
+                    md:scroll-mt-[var(--header-h)]
+                ">
+                    <Credits />
+                </section> 
+                {/* 
                 <HeroSection />
                 <AboutMe />
                 <Education />
@@ -38,7 +111,7 @@ export const Home  = () => {
                 <Skills />
                 <Extra />
                 <Contact />
-                <Credits />
+                <Credits /> */}
             </main>
 
             {/* Footer */}

@@ -11,7 +11,7 @@ export const Contact = () => {
     };
 
     return (
-        <section id="contact" className="md:snap-start md:h-screen relative min-h-screen flex items-center justify-center bottom-45 z-10 pt-50 md:pt-110 translate-y-[20px]">
+        <section id="contact" className="2xl:scale-[1] md:snap-start md:h-screen relative min-h-screen flex items-center justify-center sm:bottom-10 md:bottom-45 z-10 sm:mt-20 md:pt-90">
             <div className="relative container max-w-4xl mx-auto text-center z-10 ">
                 <h2 className="text-3xl md:text-6xl text-glow mb-12">
                     <span className="text-[30px]">✩° </span> Let's Get In Touch! <span className="text-[30px]"> °✩</span>
@@ -32,7 +32,7 @@ export const Contact = () => {
                             Copied!
                         </span>
                     )}
-                    <br></br><br></br>
+                    <br></br>
                     <br></br>
                     <div className="flex justify-center items-center space-x-5">
                         <a href="mailto:saymadevelops@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-[color:var(--hovertext)] duration-100 hover:scale-110">
@@ -44,7 +44,7 @@ export const Contact = () => {
                     </div>
                 </p>
                 <div className="z-50 hidden md:flex justify-center animate-float">
-                    <img src={galaxy} alt="galaxy gif" className="md:-translate-y-[190px] rotate-30 pointer-events-none md:w-150 md:h-150"></img>
+                    <img src={galaxy} alt="galaxy gif" className="md:-translate-y-[130px] rotate-30 pointer-events-none md:w-100 md:h-100"></img>
                 </div>
                 <div className="z-50 md:hidden flex justify-center animate-float">
                     <img src={galaxy} alt="galaxy gif" className="-translate-y-[100px] rotate-30 pointer-events-none w-90 h-90"></img>

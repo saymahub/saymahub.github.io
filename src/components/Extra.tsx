@@ -2,7 +2,7 @@ import earth from '../assets/earth.gif';
 
 export const Extra = () => {
     return(
-        <section id="extra" className="md:snap-start md:h-screen py-40 md:py-60 px-4 relative container mx-auto max-w-9xl space-y-6 text-left">
+        <section id="extra" className="md:snap-start md:h-screen sm:py-10 md:py-40 px-4 relative container mx-auto max-w-9xl space-y-6 text-left">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
 
                 <div className="container hidden md:flex">

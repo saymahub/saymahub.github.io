@@ -38,7 +38,7 @@ export const Skills = () => {
     );
 
     return (
-        <section id="skills" className="md:snap-start md:h-screen relative min-h-screen flex flex-col items-center bottom-45 px-4 py-10 z-10 pt-35 md:pt-35">
+        <section id="skills" className="2xl:scale-[0.90] md:snap-start md:h-screen relative min-h-screen flex flex-col items-center md:bottom-45 px-4 py-10 z-10 md:pt-35">
             <div className="items-center">
                 <div className="container mx-auto max-w-5xl space-y-6 text-center space-x-4">
                     <h2 className="text-3xl md:text-6xl mb-5 md:mb-12 text-center text-glow">

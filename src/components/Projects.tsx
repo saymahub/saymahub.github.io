@@ -34,10 +34,10 @@ const projects = [
 ]
 export const Projects = () => {
     return (
-        <section id="projects" className="md:snap-start md:h-screen relative min-h-screen flex flex-col items-center justify-center bottom-45 px-4 py-10 z-10 pt-35 md:pt-30">
+        <section id="projects" className="2xl:scale-[0.90] md:snap-start md:h-screen relative min-h-screen flex flex-col items-center px-4 z-10 md:pt-30">
             <div className="items-center">
                 <div className="container mx-auto max-w-5xl space-y-6 text-center space-x-4">
-                    <h2 className="text-3xl md:text-6xl mb-5 md:mb-12 text-center text-glow">
+                    <h2 className="text-3xl md:text-6xl mb-5 md:mb-6 text-center text-glow">
                         <span className="text-[30px]">✩°｡⋆ </span> Notable Projects <span className="text-[30px]">⋆｡°✩ </span>
                     </h2>
                     <p className="font-prata text-[12px] md:text-[18px]">
@@ -46,11 +46,11 @@ export const Projects = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-prata">
                         {projects.map((project,key) => (
                             <div key={key} className="group bg-[color:var(--card)] rounded-lg overflow-hidden card-hover">
-                                <div className="h-48 overflow-hidden">
+                                <div className="h-40 overflow-hidden">
                                     <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"/>
                                 </div> 
                                 <div className="p-5">
-                                    <div className="flex flex-wrap gap-2 mb-2    "> 
+                                    <div className="flex flex-wrap gap-2 mb-2 "> 
                                         {project.tags.map((tag) => (
                                             <span className="px-2 py-1 text-xs rounded-full border-1 border-opacity-25"> {tag} </span>
                                         ))}
@@ -72,7 +72,6 @@ export const Projects = () => {
                             </div>
                         ))}
                     </div>
-                    <br></br><br></br>
                     <div className="flex justify-center items-center ">
                         <a href="https://github.com/saymahub" target="_blank" rel="noopener noreferrer" className="port-button w-fit flex items-center mx-auto gap-2 cursor-pointer">
                             More on GitHub! <ArrowRight size={18}/>

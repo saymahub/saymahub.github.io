@@ -2,7 +2,7 @@ import blackhole from '../assets/blackhole.gif';
 
 export const Education = () => {
     return (
-        <section id="education" className="md:snap-start md:h-screen py-30 px-4 relative container mx-auto max-w-9xl space-y-6 text-left -translate-y-[100px]">
+        <section id="education" className="md:snap-start md:h-screen px-4 relative container mx-auto max-w-9xl space-y-6 text-left sm:pt-10 md:pt-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gpa-12 items-center">
                 <div className="container mx-auto max-w-5xl space-y-6 text-left md:translate-x-[120px]">
                     <h2 className="text-3xl text-glow md:text-6xl mb-12 text-left">
