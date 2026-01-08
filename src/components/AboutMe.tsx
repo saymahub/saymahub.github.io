@@ -19,7 +19,7 @@ export const AboutMe = () => {
                         little too much attention. I'm happiest when I'm creating something useful (or at least cool).
                     </p>
                     <p className="font-prata text-[12px] md:text-[18px]">
-                        Right now I'm focused on full-stack development, but I'm super 
+                        Right now I'm focused on cybersecurity, but I'm super 
                         interested in exploring data engineering and network security, and I've dabbled in everything in between.
                     </p>
                     <p className="font-prata text-[12px] md:text-[18px]">
