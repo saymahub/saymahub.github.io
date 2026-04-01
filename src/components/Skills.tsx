@@ -20,6 +20,9 @@ const skills = [
     {id: 16, title: "Jira", category: "Tools",},
     {id: 17, title: "Git", category: "Tools",},
     {id: 18, title: "Docker", category: "Tools",},
+    {id: 19, title: "C#", category: "Back End",},
+    {id: 20, title: ".NET", category: "Back End",},
+    {id: 21, title: "OpenAI API", category: "Back End",},
 ];
 
 const categories = ["All", "Front End", "Back End", "Programming", "Tools"];

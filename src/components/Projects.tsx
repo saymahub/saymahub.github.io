@@ -1,7 +1,7 @@
 import {ArrowRight, ExternalLink, Github} from "lucide-react";
 import personalportfolio from '../assets/projects/personalsite.png';
 import heartlens from '../assets/projects/heartlens3.png';
-import nyctaxidata from '../assets/projects/nyctaxidata.png';
+import fineprint from '../assets/projects/fineprint.png';
 
 const projects = [
     {
@@ -24,12 +24,12 @@ const projects = [
     },
     {
         id: 3,
-        title: "NYC Taxi Data Analysis",
-        description: "A simple project utilising machine learning to analyse trip duration, traffic congestion, and hotspots for taxis in NYC.",
-        image:nyctaxidata,
-        tags: ["Python", "Pandas", "SKLearn"],
-        demoURL:"https://github.com/saymahub/NYC-Taxi-Data-ML-Project",
-        githubURL:"https://github.com/saymahub/NYC-Taxi-Data-ML-Project",
+        title: "FinePrint",
+        description: "AI-powered insurance policy claims triage tool. Complicated Policies, real answers",
+        image:fineprint,
+        tags: ["C#", ".NET", "pgvector"],
+        demoURL:"https://github.com/saymahub/FINEPRINT",
+        githubURL:"https://github.com/saymahub/FINEPRINT",
     },
 ]
 export const Projects = () => {
