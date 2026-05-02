@@ -14,18 +14,18 @@ export const AboutMe = () => {
                         About Me <span className="text-[30px]">⋆｡°✩ </span>
                     </h2>
                     <p className="font-prata text-[12px] md:text-[18px]">
-                        Hey there! I'm Sayma, a software engineer who's finding their place in the industry. 
-                        My work days consist of building websites, working towards certificates, or giving side projects a 
-                        little too much attention. I'm happiest when I'm creating something useful (or at least cool).
+                        Hey there! I'm Sayma, a software developer working at Modular Solutions! 
+                        My work days consist of meetings, back end development, PR reviews, and more meetings :) 
+                        I'm happiest when I'm creating something useful (or at least cool).
                     </p>
                     <p className="font-prata text-[12px] md:text-[18px]">
-                        Right now I'm focused on cybersecurity, but I'm super 
+                        Right now I'm focused on growing as a software developer, but I'm super 
                         interested in exploring data engineering and network security, and I've dabbled in everything in between.
                     </p>
                     <p className="font-prata text-[12px] md:text-[18px]">
                         When I'm not coding, you'll probably find me playing video games, working on a new painting, 
-                        cooking up a new recipe, or trying to fix one last bug before bed
-                        <span className="text-[8px] md:text-[10px]"> (send help)</span><span>.</span>
+                        practicing violin, or trying to fix one last bug before bed 
+                        <span className="text-[8px] md:text-[10px]">  (send help)</span><span>.</span>
                     </p>
                 </div>
 

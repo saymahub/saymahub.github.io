@@ -10,23 +10,23 @@ export const Experience = () => {
                     <span className="text-[30px]">✩° </span> Professional Experience <span className="text-[30px]"> °✩</span>
                 </h2>
                 <p className="font-prata text-[12px] md:text-[18px]">
-                    CIRCLE CARDIOVASCULAR IMAGING
+                    MODULAR SOLUTIONS
                     <br></br>
-                    Software QA Analyst Intern  
+                    Software Developer
                     <br></br>
                     Calgary, AB 
                     <br></br>
-                    May 2023 - August 2024 
+                    April 2026 - Present
                 </p>
                 <p className="font-prata text-[12px] md:text-[18px]">
                     <br></br>
-                    IMPACT TOOLBOX
+                    CIRCLE CARDIOVASCULAR IMAGING
                     <br></br>
-                    Student Intern
+                    Software QA Analyst Intern 
                     <br></br>
-                    Remote
+                    Calgary, AB
                     <br></br>
-                    Sep 2022 - Nov 2022 & Jan 2023 - March 2023
+                    May 2023 - August 2024 
                 </p>
                 <br></br><br></br>
                 <a href={resume} target="_blank" rel="noopener noreferrer" className="port-button cursor-pointer">

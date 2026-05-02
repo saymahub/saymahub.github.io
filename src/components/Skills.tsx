@@ -23,6 +23,9 @@ const skills = [
     {id: 19, title: "C#", category: "Back End",},
     {id: 20, title: ".NET", category: "Back End",},
     {id: 21, title: "OpenAI API", category: "Back End",},
+    {id: 22, title: "Claude Code", category: "Tools",},
+    {id: 23, title: "GitHub Copilot", category: "Tools",},
+    {id: 24, title: "OpenAI Codex", category: "Tools",},
 ];
 
 const categories = ["All", "Front End", "Back End", "Programming", "Tools"];
